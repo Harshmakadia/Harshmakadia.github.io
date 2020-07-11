@@ -1,0 +1,8 @@
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.py-5{
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
