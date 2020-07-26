@@ -34,6 +34,15 @@ function ContentCardsSection(props) {
             },
             {
               image:
+                "https://miro.medium.com/max/512/1*k4hiuaBtPRxcD2czVreyvA.png",
+              title: "Improving the UX of React apps with Skeleton/Content Loader",
+              body:
+                "Get rid of loading mask as some places in your apps and replace it....",
+              url:
+                "https://medium.com/javascript-in-plain-english/improving-the-ux-of-react-apps-with-skeleton-content-loader-f094e7ada4b6",
+            },
+            {
+              image:
                 "https://miro.medium.com/max/2000/1*HuXW8lSzyaOyK95Mgu6oJQ.png",
               title: "Managing States with Recoil in React Applications",
               body:
