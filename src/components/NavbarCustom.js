@@ -32,6 +32,9 @@ function NavbarCustom(props) {
             {!auth.user && (
               <>
                 <Nav.Item>
+                  <span onClick={() => props.toggleTheme()}>Dark</span>
+                </Nav.Item>
+                <Nav.Item>
                   <LinkContainer to="/blogs">
                     <Nav.Link active={false}>
                       <span>Blogs</span>
