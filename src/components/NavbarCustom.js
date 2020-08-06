@@ -82,6 +82,11 @@ function NavbarCustom(props) {
                     </span>
                   </Nav.Link>
                 </Nav.Item>
+                <Nav.Item>
+                  <span className="nav-link cursor-pointer" onClick={() => props.toggleTheme()} style={{ borderRadius: "10px", background: "rgb(248 40 38 / 56%)" }}>
+                   <img style={{height: "25px", width: "25px"}} src={`${props.variant === "dark" ? "https://user-images.githubusercontent.com/13532530/89498022-121e3280-d7db-11ea-803b-8a5c79894919.png" : "https://user-images.githubusercontent.com/13532530/89498043-19ddd700-d7db-11ea-8adc-bcc2e6b07b94.png" }`} />
+                  </span>
+                </Nav.Item>
               </>
             )}
           </Nav>
