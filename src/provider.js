@@ -7,10 +7,21 @@ class GlobalState extends Component {
     theme: "dark"
   };
 
+  componentDidMount() {
+    const currentTheme = localStorage.getItem("theme") || "dark";
+    localStorage.setItem("theme", currentTheme); 
+    this.setState({
+      theme: currentTheme
+    });
+  };
+  
+
   toggleTheme = theme => {
     const currentMode = this.state.theme;
-    const nextMode = currentMode === "dark" ? "light" : "dark";  
-    this.setState({theme: nextMode })
+    const nextMode = currentMode === "dark" ? "light" : "dark"; 
+    localStorage.setItem("theme", nextMode); 
+    this.setState({theme: nextMode });
+
   };
 
   render() {
