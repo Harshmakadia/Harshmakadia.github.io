@@ -32,7 +32,7 @@ function NavbarCustom(props) {
             {!auth.user && (
               <>
                 <Nav.Item>
-                  <span onClick={() => props.toggleTheme()}>Dark</span>
+                  <span className="nav-link cursor-pointer" onClick={() => props.toggleTheme()}>Dark</span>
                 </Nav.Item>
                 <Nav.Item>
                   <LinkContainer to="/blogs">

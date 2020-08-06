@@ -58,9 +58,18 @@ function FaqSection(props) {
         </Container>
         <hr></hr>
       </Section>
-      <Container>
-        <h2 className="FaqSection__no-classname">Projects 🖌</h2>
-      </Container>
+      <Section
+        bg={props.bg}
+        textColor={props.textColor}
+      >
+        <Container>
+          <h2 className={"FaqSection__no-classname" + 
+            (props.bg ? ` bg-${props.bg}` : "") +
+            (props.textColor ? ` text-${props.textColor}` : "")
+          }
+          >Projects 🖌</h2>
+        </Container>
+      </Section>
     </>
   );
 }

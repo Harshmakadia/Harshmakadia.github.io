@@ -23,7 +23,7 @@ function App(props) {
                   <NavbarCustom
                     toggleTheme={context.toggleTheme.bind(this)}
                     bg={context.theme}
-                    variant="light"
+                    variant={context.theme}
                     expand="lg"
                     logo="https://user-images.githubusercontent.com/13532530/86536376-9c395980-bf04-11ea-89e3-24be8dcb5b20.png"
                   ></NavbarCustom>
@@ -33,8 +33,8 @@ function App(props) {
                     <Route component={NotFoundPage} />
                   </Switch>
                 <Footer
-                  bg="white"
-                  textColor="dark"
+                  bg={context.theme === "dark" ? "dark" : "white"}
+                  textColor={context.theme === "dark" ? "light" : "dark"}
                   size="md"
                   bgImage=""
                   bgImageOpacity={1}
