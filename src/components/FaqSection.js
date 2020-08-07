@@ -56,7 +56,6 @@ function FaqSection(props) {
             ]}
           ></Faq>
         </Container>
-        <hr></hr>
       </Section>
       <Section
         bg={props.bg}
