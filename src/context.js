@@ -1,6 +1,6 @@
 import React from 'react';
 
 export default React.createContext({
-  theme: "dark",
+  theme: "light",
   toggleTheme: product => {},
 });

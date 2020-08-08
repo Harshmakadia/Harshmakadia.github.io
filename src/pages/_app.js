@@ -5,6 +5,8 @@ import IndexPage from "./index";
 import BlogsPage from "./blogs";
 import { Switch, Route, Router } from "./../util/router.js";
 import NotFoundPage from "./not-found.js";
+import AboutPage from './about';
+import NewsLetters from './newsletters';
 import Footer from "./../components/Footer";
 import "./../util/analytics.js";
 import { ProvideAuth } from "./../util/auth.js";
@@ -30,6 +32,8 @@ function App(props) {
                   <Switch>
                     <Route exact path="/" component={IndexPage} />
                     <Route exact path="/blogs" component={BlogsPage} />
+                    <Route exact path="/about" component={AboutPage} />
+                    <Route exact path="/newsletter" component={NewsLetters} />
                     <Route component={NotFoundPage} />
                   </Switch>
                 <Footer

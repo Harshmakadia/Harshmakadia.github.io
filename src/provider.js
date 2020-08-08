@@ -4,11 +4,11 @@ import ThemeContext from './context';
 
 class GlobalState extends Component {
   state = {
-    theme: "dark"
+    theme: "light"
   };
 
   componentDidMount() {
-    const currentTheme = localStorage.getItem("theme") || "dark";
+    const currentTheme = localStorage.getItem("theme") || "light";
     localStorage.setItem("theme", currentTheme); 
     this.setState({
       theme: currentTheme
