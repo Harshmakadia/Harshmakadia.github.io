@@ -4,6 +4,8 @@ import ContentCardsSection from "./../components/ContentCardsSection";
 import { useRouter } from "./../util/router.js";
 import ThemeContext from '../context';
 
+import {Helmet} from "react-helmet";
+
 function BlogsPage(props) {
   const router = useRouter();
 
@@ -11,6 +13,10 @@ function BlogsPage(props) {
     <ThemeContext.Consumer>
       {context => (
         <>
+          <Helmet>
+                <meta charSet="utf-8" />
+                <title>I'm Harsh | Blogs</title>
+          </Helmet>
           <HeroSection
             bg={context.theme === "dark" ? "dark" : "white"}
             textColor={context.theme === "dark" ? "light" : "dark"}

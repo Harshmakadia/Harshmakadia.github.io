@@ -51,6 +51,13 @@ function TeamBiosSection(props) {
               role: "LinkedIn",
               link: "https://www.linkedin.com/in/harsh-makadia-03109b66/"
             },
+            {
+              avatar:
+                "https://user-images.githubusercontent.com/13532530/89725513-efd02300-da2d-11ea-9858-9ef0ae0a7f3d.png",
+              name: "Harsh Makadia",
+              role: "Stack Overflow",
+              link: "https://stackoverflow.com/users/5220060/harsh-makadia/"
+            },
           ]}
         ></TeamBios>
       </Container>

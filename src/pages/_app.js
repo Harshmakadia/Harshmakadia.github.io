@@ -34,6 +34,7 @@ function App(props) {
                     <Route exact path="/blogs" component={BlogsPage} />
                     <Route exact path="/about" component={AboutPage} />
                     <Route exact path="/newsletter" component={NewsLetters} />
+                    <Route exact path="/subscribe" component={NewsLetters} />
                     <Route component={NotFoundPage} />
                   </Switch>
                 <Footer

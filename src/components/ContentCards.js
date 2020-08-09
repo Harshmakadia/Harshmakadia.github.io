@@ -13,7 +13,7 @@ function ContentCards(props) {
         <Row className="justify-content-center">
           {props.items.map((item, index) => (
             <Col xs={12} md={6} lg={4} className="py-3 cursor-pointer" key={index}>
-              <Card onClick={() => window.open(item.url, "_blank")}>
+              <Card className="animate" onClick={() => window.open(item.url, "_blank")}>
                 <AspectRatio ratio={1 / 0.5}>
                   <Card.Img
                     src={item.image}

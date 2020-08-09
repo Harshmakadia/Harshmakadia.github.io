@@ -5,6 +5,8 @@ import CtaSection from "./../components/About/CtaSection";
 import { useRouter } from "./../util/router.js";
 import ThemeContext from '../context';
 
+import {Helmet} from "react-helmet";
+
 function IndexPage(props) {
   const router = useRouter();
 
@@ -12,6 +14,10 @@ function IndexPage(props) {
     <ThemeContext.Consumer>
       {context => (
         <>
+          <Helmet>
+                <meta charSet="utf-8" />
+                <title>I'm Harsh | About</title>
+          </Helmet>
           <HeroSection
             bg={context.theme === "dark" ? "dark" : "white"}
             textColor={context.theme === "dark" ? "light" : "dark"}

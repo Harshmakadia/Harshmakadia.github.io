@@ -19,7 +19,7 @@ function TeamBios(props) {
                 className="py-3 d-flex align-items-stretch text-center"
                 key={index}
               >
-                <Card className="d-flex flex-grow-1 flex-column text-center align-items-center border-0" style={{backgroundColor: (context.theme === "dark" ? "rgb(140 94 60)" : "#dcdcdc")}}>
+                <Card className="d-flex flex-grow-1 flex-column text-center align-items-center border-0 animate" style={{backgroundColor: (context.theme === "dark" ? "rgb(140 94 60)" : "#dcdcdc")}}>
                   <Card.Body className="p-2" style={{cursor: "pointer"}} onClick={() => window.open(item.link, "_blank")}>
                     <Avatar src={item.avatar} alt={item.name} size="128px"></Avatar>
                     <div className="mt-4">
