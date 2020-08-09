@@ -1,12 +1,13 @@
 import React from "react";
-import HeroSection from "./../components/HeroSection";
-import ContentCardsSection from "./../components/ContentCardsSection";
+import HeroSection from "./../components/About/HeroSection";
+import TeamBiosSection from "./../components/About/TeamBiosSection";
+import CtaSection from "./../components/About/CtaSection";
 import { useRouter } from "./../util/router.js";
 import ThemeContext from '../context';
 
 import {Helmet} from "react-helmet";
 
-function BlogsPage(props) {
+function IndexPage(props) {
   const router = useRouter();
 
   return (
@@ -15,7 +16,7 @@ function BlogsPage(props) {
         <>
           <Helmet>
                 <meta charSet="utf-8" />
-                <title>I'm Harsh | Blogs</title>
+                <title>I'm Harsh | About</title>
           </Helmet>
           <HeroSection
             bg={context.theme === "dark" ? "dark" : "white"}
@@ -25,25 +26,40 @@ function BlogsPage(props) {
             bgImageOpacity={1}
             title="About Me"
             subtitle="Dev, Dreamer, Travel Buff, Gadget Geek, Adventurer, Gamer. Writing about Javascript ❤"
+            buttonText=""
             buttonColor="primary"
             buttonOnClick={() => {
               // Navigate to pricing page
               router.push("/pricing");
             }}
           ></HeroSection>
-          <ContentCardsSection
+          <TeamBiosSection
             bg={context.theme === "dark" ? "dark" : "white"}
             textColor={context.theme === "dark" ? "light" : "dark"}
             size="md"
             bgImage=""
             bgImageOpacity={1}
-            title="Featured Content"
+            title="Follow me on"
             subtitle=""
-          ></ContentCardsSection>
+          ></TeamBiosSection>
+          <CtaSection
+            bg={context.theme === "dark" ? "dark" : "white"}
+            textColor={context.theme === "dark" ? "light" : "dark"}
+            size="md"
+            bgImage=""
+            bgImageOpacity={1}
+            title="Join the newsletter"
+            subtitle="Subscribe to my weekly emails on Low-code/No code, ReactJS, Javascript, UX/UI, tools that makes your life easier"
+            buttonText="Subscribe Now"
+            buttonColor="primary"
+            buttonOnClick={() => {
+              window.open("https://tinyletter.com/HarshMakadia", "_blank");
+            }}
+          ></CtaSection>
         </>
-      )}
-    </ThemeContext.Consumer>
+        )}
+      </ThemeContext.Consumer>
   );
 }
 
-export default BlogsPage;
+export default IndexPage;

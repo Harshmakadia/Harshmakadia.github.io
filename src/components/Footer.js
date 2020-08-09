@@ -22,12 +22,13 @@ function Footer(props) {
             </Link>
           </div>
           <div className="links right">
-            <Link to="/about"></Link>
-            <Link to="/faq"></Link>
-            <Link to="#contact"></Link>
-            <Link target="_blank" to="/blogs" rel="noopener noreferrer">
+            <Link to="/about"> About </Link>
+            <Link to="/blogs" rel="noopener noreferrer">
               Blogs
             </Link>
+            <a href="https://tinyletter.com/HarshMakadia/" target="_blank" rel="noopener noreferrer">
+              NewsLetter
+            </a>
           </div>
           <div className="social right">
             <a
