@@ -30,8 +30,8 @@ function NewsSection(props) {
             },
             {
               title: "Tech that Matters - Nocode tools, React codebase generator, Notion websites",
-              date: "August 17th, 2020",
-              url: 'https://tinyletter.com/HarshMakadia/letters/august-17th-tech-that-matters'
+              date: "August 15th, 2020",
+              url: 'https://tinyletter.com/HarshMakadia/letters/august-15-tech-that-matters'
             }
           ]}
         />
