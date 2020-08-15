@@ -45,13 +45,13 @@ function NavbarCustom(props) {
                     </Nav.Link>
                   </LinkContainer>
                 </Nav.Item>
-                <Nav.Link
-                    href="https://tinyletter.com/HarshMakadia"
-                    active={false}
-                    target="_blank"
-                  >
-                    <span>NewsLetter</span>
-                  </Nav.Link>
+                <Nav.Item>
+                  <LinkContainer to="/newsletter">
+                    <Nav.Link active={false}>
+                      <span>Newsletter</span>
+                    </Nav.Link>
+                  </LinkContainer>
+                </Nav.Item>
                 {/* <Nav.Item>
                   <Nav.Link
                     href="https://medium.com/@MakadiaHarsh"

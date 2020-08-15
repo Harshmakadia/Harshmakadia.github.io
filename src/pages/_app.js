@@ -7,6 +7,7 @@ import { Switch, Route, Router } from "./../util/router.js";
 import NotFoundPage from "./not-found.js";
 import AboutPage from './about';
 import NewsLetters from './newsletters';
+import SubLetters from './subscribe';
 import Footer from "./../components/Footer";
 import "./../util/analytics.js";
 import { ProvideAuth } from "./../util/auth.js";
@@ -34,7 +35,7 @@ function App(props) {
                     <Route exact path="/blogs" component={BlogsPage} />
                     <Route exact path="/about" component={AboutPage} />
                     <Route exact path="/newsletter" component={NewsLetters} />
-                    <Route exact path="/subscribe" component={NewsLetters} />
+                    <Route exact path="/subscribe" component={SubLetters} />
                     <Route component={NotFoundPage} />
                   </Switch>
                 <Footer
