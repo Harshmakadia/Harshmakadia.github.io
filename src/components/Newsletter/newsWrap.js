@@ -24,14 +24,19 @@ function NewsSection(props) {
         <NewsItem
           items={[
             {
-              title: "Tech that Matters - Articles on React Props Drilling, Hooks, Patterns",
-              date: "August 8th, 2020",
-              url: 'https://tinyletter.com/HarshMakadia/letters/august-8-tech-that-matters'
+              title: "Tech that Matters - Get info about nocode tools to build your website in minutes",
+              date: "August 22nd, 2020",
+              url: 'https://tinyletter.com/HarshMakadia/letters/august-22-tech-that-matters'
             },
             {
               title: "Tech that Matters - Nocode tools, React codebase generator, Notion websites",
               date: "August 15th, 2020",
               url: 'https://tinyletter.com/HarshMakadia/letters/august-15-tech-that-matters'
+            },
+            {
+              title: "Tech that Matters - Articles on React Props Drilling, Hooks, Patterns",
+              date: "August 8th, 2020",
+              url: 'https://tinyletter.com/HarshMakadia/letters/august-8-tech-that-matters'
             }
           ]}
         />
