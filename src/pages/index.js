@@ -5,12 +5,11 @@ import HeroSection2 from "./../components/HeroSection2";
 import HeroSection3 from "./../components/HeroSection3";
 import ClientsSection from "./../components/ClientsSection";
 import ContactSection from "./../components/ContactSection";
-import { useRouter } from "./../util/router.js";
 import ThemeContext from '../context';
 
-function IndexPage(props) {
-  const router = useRouter();
+import Harsh from "../images/harsh-img.png";
 
+function IndexPage(props) {
   return (
     <ThemeContext.Consumer>
       {context => (
@@ -23,12 +22,7 @@ function IndexPage(props) {
             bgImageOpacity={1}
             title="Hello, I'm Harsh Makadia 👋🏻"
             subtitle="ChatBots 💬 &nbsp;|&nbsp; Web Apps 🖥 &nbsp; |&nbsp; Javascript ❤️ &nbsp;|&nbsp; ReactJS 🤩 &nbsp;|&nbsp; RPA 🤖&nbsp; "
-            buttonText="Get Started"
-            buttonColor="primary"
-            buttonOnClick={() => {
-              // Navigate to pricing page
-              router.push("/pricing");
-            }}
+            image={Harsh}
           ></HeroSection>
           <FaqSection
             bg={context.theme === "dark" ? "dark" : "white"}
@@ -40,6 +34,22 @@ function IndexPage(props) {
             subtitle=""
           ></FaqSection>
           <HeroSection2
+            bg={context.theme === "dark" ? "dark" : "white"}
+            textColor={context.theme === "dark" ? "light" : "dark"}
+            size="md"
+            bgImage=""
+            bgImageOpacity={1}
+            title="Bitsy.ml"
+            subtitle="Create short link for multiple links in seconds."
+            buttonText="View Project"
+            buttonColor="primary"
+            image="https://bitsy-cc3f6.web.app/static/media/task.f745f59c.png"
+            buttonOnClick={() => {
+              // Navigate to pricing page
+              window.open("https://bitsy-cc3f6.web.app/", "_blank");
+            }}
+          ></HeroSection2>
+          <HeroSection3
             bg={context.theme === "dark" ? "dark" : "white"}
             textColor={context.theme === "dark" ? "light" : "dark"}
             size="md"
@@ -57,22 +67,6 @@ function IndexPage(props) {
                 "https://www.npmjs.com/package/console.beautify",
                 "_blank"
               );
-            }}
-          ></HeroSection2>
-          <HeroSection3
-            bg={context.theme === "dark" ? "dark" : "white"}
-            textColor={context.theme === "dark" ? "light" : "dark"}
-            size="md"
-            bgImage=""
-            bgImageOpacity={1}
-            title="Bitsy.ml"
-            subtitle="Create short link for multiple links in seconds."
-            buttonText="View Project"
-            buttonColor="primary"
-            image="https://bitsy-cc3f6.web.app/static/media/task.f745f59c.png"
-            buttonOnClick={() => {
-              // Navigate to pricing page
-              window.open("https://bitsy-cc3f6.web.app/", "_blank");
             }}
           ></HeroSection3>
           <HeroSection2

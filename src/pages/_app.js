@@ -14,6 +14,9 @@ import { ProvideAuth } from "./../util/auth.js";
 import GlobalState from '../provider';
 import ThemeContext from '../context';
 
+import HarshWhite from '../images/harshWhite.png';
+import HarshBlack from '../images/harshBlack.png';
+
 function App(props) {
   return (
     <GlobalState>
@@ -28,7 +31,7 @@ function App(props) {
                     bg={context.theme}
                     variant={context.theme}
                     expand="lg"
-                    logo="https://user-images.githubusercontent.com/13532530/86536376-9c395980-bf04-11ea-89e3-24be8dcb5b20.png"
+                    logo={context.theme === "dark" ? HarshWhite : HarshBlack}
                   ></NavbarCustom>
                   <Switch>
                     <Route exact path="/" component={IndexPage} />
@@ -46,7 +49,7 @@ function App(props) {
                   bgImageOpacity={1}
                   description="Harsh Makadia"
                   copyright="© 2020 Harsh Makdia"
-                  logo="https://user-images.githubusercontent.com/13532530/86536376-9c395980-bf04-11ea-89e3-24be8dcb5b20.png"
+                  logo={context.theme === "dark" ? HarshWhite : HarshBlack}
                 ></Footer>
                 </>
             )}
