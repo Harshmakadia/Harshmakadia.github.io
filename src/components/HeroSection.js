@@ -27,7 +27,7 @@ function HeroSection(props) {
           </Col>
           <Col className="offset-lg-1 mt-5 mt-lg-0" style={{textAlign: "center"}}>
             <figure className="HeroSection2__image-container mx-auto">
-              <Image src={props.image} fluid={true} style={{maxHeight: 500}}></Image>
+              <Image src={props.image} fluid={true} style={{maxHeight: 500, minHeight: 500}}></Image>
             </figure>
           </Col>
         </Row>
