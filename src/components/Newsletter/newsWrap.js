@@ -24,6 +24,11 @@ function NewsSection(props) {
         <NewsItem
           items={[
             {
+              title: "Tech that Matters - Get info about nocode tools to build your website in minutes along with automation workflow",
+              date: "August 29th, 2020",
+              url: 'https://tinyletter.com/HarshMakadia/letters/august-29-tech-that-matters'
+            },
+            {
               title: "Tech that Matters - Get info about nocode tools to build your website in minutes",
               date: "August 22nd, 2020",
               url: 'https://tinyletter.com/HarshMakadia/letters/august-22-tech-that-matters'
