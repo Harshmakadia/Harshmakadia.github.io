@@ -25,6 +25,15 @@ function ContentCardsSection(props) {
           items={[
             {
               image:
+                "https://miro.medium.com/max/700/1*-QnCh603gbVipMpq2-QxaQ.png",
+              title: "10 Tips and Tricks to Boost Your React App’s Performance in 2020",
+              body:
+                "Faster apps, happier users",
+              url:
+                "https://medium.com/better-programming/10-tips-and-tricks-to-boost-your-react-apps-performance-in-2020-9388159f6ebf",
+            },
+            {
+              image:
                 "https://miro.medium.com/max/800/1*YG3-T77xGBfKDn5SfE6P8w.jpeg",
               title: "Why React16 is a blessing to React developers",
               body:
