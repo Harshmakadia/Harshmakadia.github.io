@@ -22,5 +22,8 @@
 }
 
 .animate{
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 1px 2px 9px rgba(200,199,200,0.5), 0 -3px 6px rgba(200,199,200, 0.5);
+}
+.card{
+    border-radius: 0 !important;
 }
