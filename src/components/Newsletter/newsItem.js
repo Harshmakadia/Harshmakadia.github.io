@@ -14,7 +14,7 @@ function NewsItem(props) {
             {props.items.map((item, index) => (
                 <Col xs={12} md={12} className="py-3 cursor-pointer" key={index}>
                 <Card className="animate" onClick={() => window.open(item.url, "_blank")}>
-                    <Card.Body className="p-4" style={{backgroundColor: (context.theme === "dark" ? "#7f7f7f" : "#ffffff")}}>
+                    <Card.Body className="p-4" style={{backgroundColor: (context.theme === "dark" ? "#509BDB" : "#ffffff")}}>
                     <Card.Text>{item.title}</Card.Text>
                     <Media className="align-items-center mt-auto">
                         <Media.Body className="ml-2">

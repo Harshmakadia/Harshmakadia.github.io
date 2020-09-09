@@ -21,7 +21,7 @@ function ContentCards(props) {
                     variant="top"
                   ></Card.Img>
                 </AspectRatio>
-                <Card.Body style={{backgroundColor: (context.theme === "dark" ? "#7f7f7f" : "#ffffff")}}>
+                <Card.Body style={{backgroundColor: (context.theme === "dark" ? "#509BDB" : "#ffffff")}}>
                   <Card.Title>{item.title}</Card.Title>
                   <Card.Text>{item.body}</Card.Text>
                 </Card.Body>
