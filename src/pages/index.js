@@ -7,7 +7,7 @@ import ClientsSection from "./../components/ClientsSection";
 import ContactSection from "./../components/ContactSection";
 import ThemeContext from '../context';
 
-import Harsh from "../images/harsh-img.png";
+import Harsh from "../images/stand.svg";
 
 function IndexPage(props) {
   return (

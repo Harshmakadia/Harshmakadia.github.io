@@ -7,7 +7,7 @@ function Clients(props) {
     <Row className="justify-content-center">
       {props.items.map((item, index) => (
         <Col md="auto" className="py-3 px-4" key={index}>
-          <div className="align-bottom">
+          <div className="align-bottom" title={item.name}>
             <img src={item.image} width={item.width} alt={item.name}></img>
           </div>
         </Col>

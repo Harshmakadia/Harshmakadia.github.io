@@ -64,6 +64,34 @@ function ClientsSection(props) {
               width: "100px",
               height: "100px",
             },
+            {
+              name: "Firebase",
+              image:
+                "https://user-images.githubusercontent.com/13532530/92553990-f39bd300-f281-11ea-921b-3ebb2301f1cf.png",
+              width: "100px",
+              height: "100px",
+            },
+            {
+              name: "GraphQL",
+              image:
+                "https://user-images.githubusercontent.com/13532530/92553996-f5fe2d00-f281-11ea-8433-ae78c5d8d6c4.png",
+              width: "100px",
+              height: "100px",
+            },
+            {
+              name: "Nocode Tools",
+              image:
+                "https://user-images.githubusercontent.com/13532530/92554205-66a54980-f282-11ea-959a-0cf01750e92f.png",
+              width: "140px",
+              height: "120px;",
+            },
+            // {
+            //   name: "Nextjs",
+            //   image:
+            //     "https://user-images.githubusercontent.com/13532530/92554130-3f4e7c80-f282-11ea-9ac6-19b1cd57394a.jpg",
+            //   width: "140px",
+            //   height: "120px;",
+            // },
           ]}
         ></Clients>
       </Container>
