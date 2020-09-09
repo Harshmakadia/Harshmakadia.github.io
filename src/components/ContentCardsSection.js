@@ -80,7 +80,7 @@ function ContentCardsSection(props) {
                 "https://miro.medium.com/max/1400/1*dahHaMDlEHzN_oXTam7Ibw.jpeg",
               title: "Mastering JS console.log like a Pro",
               body:
-                "Still, using only console.log( ) to debug? Well, there’s a lot more which can help you debug faster",
+                "Still, using only console.log( ) to debug? Well, there’s a lot more which can help.",
               url:
                 "https://medium.com/javascript-in-plain-english/mastering-js-console-log-like-a-pro-1c634e6393f9",
             },
@@ -107,7 +107,7 @@ function ContentCardsSection(props) {
                 "https://miro.medium.com/max/2000/1*I3-_thuPDL1bfAuLCBntPQ.png",
               title: "How RPA helped to automate the inbound Leads",
               body:
-                "RPA is the use of software with AI",
+                "RPA is the use of software with AI and Machine Learning capabilities",
               url:
                 "https://medium.com/datadriveninvestor/how-robotics-process-automation-rpa-helped-to-automate-the-inbound-leads-9c459f781dc0",
             },
@@ -125,7 +125,7 @@ function ContentCardsSection(props) {
                 "https://miro.medium.com/max/2000/1*ooFBMFLQ8E3t_vcXgPBnoA.png",
               title:
                 "Deploy React Application with Docker and Google Cloud Platform",
-              body: "You will learn how to deploy React application with Docker on GCP",
+              body: "Deploy React app with Docker on GCP",
               url:
                 "https://medium.com/hackernoon/deploy-react-application-using-docker-and-google-cloud-platform-4bc03f9ee1f",
             },
@@ -134,7 +134,7 @@ function ContentCardsSection(props) {
                 "https://miro.medium.com/max/1272/1*lTaYmnmt1NdkNFh7u6zzkw.png",
               title: "An introduction to React Hooks",
               body:
-                "As the ReactJs library gets new updates, there are a lot of things being added and a few that are deprecated too.",
+                "As the ReactJs library gets new updates, there are a lot of things being added.",
               url:
                 "https://medium.com/free-code-camp/an-introduction-to-react-hooks-12843fcd2fd9",
             },
@@ -152,7 +152,7 @@ function ContentCardsSection(props) {
                 "https://miro.medium.com/max/1400/1*WewJcRb59DjFpOCwxxY0Dg.png",
               title: "Machine Learning basics — It’s your cup of tea!",
               body:
-                "I’m sure every one of you must have heard of this buzzword Machine Learning",
+                "I’m sure every one you must have heard of this buzzword Machine Learning",
               url:
                 "https://medium.com/hackernoon/machine-learning-basics-its-your-cup-of-tea-af4baf060ace",
             },
@@ -170,7 +170,7 @@ function ContentCardsSection(props) {
                 "https://miro.medium.com/max/2000/1*ha7eLVyYX5b9mmXqPR0puA.jpeg",
               title:
                 "Get Started with RPA — Robotics Process Automation and it’s Tools",
-              body: "RPA evolved from three key technologies screen scraping, workflow automation...",
+              body: "RPA evolved from key technologies screen scraping, workflow automation...",
               url:
                 "https://medium.com/datadriveninvestor/get-started-with-rpa-robotics-process-automation-and-its-tools-e5bfa03044ff",
             },
@@ -197,7 +197,7 @@ function ContentCardsSection(props) {
                 "https://miro.medium.com/max/1984/1*MtHX2OZYlQxjYP_VGJzhgg.jpeg",
               title:
                 "Create and deploy chatbots in minutes with Google Sheets using WotNot!",
-              body: "Deploy bots using WotNot.io",
+              body: "Deploy bots using WotNot.io, No coding Required!",
               url:
                 "https://blog.cloudboost.io/create-and-deploy-chatbots-in-minutes-with-google-sheets-using-wotnot-50a77b98dfbe",
             },
