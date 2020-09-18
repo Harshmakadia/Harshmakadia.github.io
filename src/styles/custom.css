@@ -51,3 +51,11 @@
 .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active{
     color: #ffffff !important;
 }
+
+.text-light h1, .custom-h1.text-light {
+    color: #9EDDF8 !important;
+}
+
+.text-dark h1, .custom-h1.text-dark {
+    color: #1E75D9 !important;
+}

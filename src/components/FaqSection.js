@@ -62,7 +62,7 @@ function FaqSection(props) {
         textColor={props.textColor}
       >
         <Container>
-          <h2 className={"FaqSection__no-classname" + 
+          <h2 className={"FaqSection__no-classname custom-h1" + 
             (props.bg ? ` bg-${props.bg}` : "") +
             (props.textColor ? ` text-${props.textColor}` : "")
           }
