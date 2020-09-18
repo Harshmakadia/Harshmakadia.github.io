@@ -7,9 +7,9 @@
   // Add light border if two white
   // sections next to each other.
   .bg-white + &.bg-white {
-    border-top: 1px solid rgba(248, 40, 38, 0.56);
+    border-top: 1px solid #1e75d9;
   }
   .bg-dark + &.bg-dark {
-    border-top: 1px solid rgba(248, 40, 38, 0.56);
+    border-top: 1px solid #9EDDF8;
   }
 }

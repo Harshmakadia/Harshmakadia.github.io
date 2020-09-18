@@ -25,6 +25,15 @@ function ContentCardsSection(props) {
           items={[
             {
               image:
+                "https://miro.medium.com/max/700/1*9ZNDdF8254Tv8-H-sz81ZA.png",
+              title: "Build an MVP in a week by picking the right technology stack",
+              body:
+                "Spend Less 💰, Ship Faster 🚀",
+              url:
+                "https://medium.com/javascript-in-plain-english/build-an-mvp-in-a-week-by-picking-the-right-technology-stack-aec0443aeab5",
+            },
+            {
+              image:
                 "https://miro.medium.com/max/700/1*-QnCh603gbVipMpq2-QxaQ.png",
               title: "10 Tips and Tricks to Boost Your React App’s Performance in 2020",
               body:
