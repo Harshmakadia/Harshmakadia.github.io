@@ -64,7 +64,7 @@ function Contact(props) {
   };
 
   return (
-    <>
+    <div id="contact">
       {formAlert && (
         <FormAlert
           type={formAlert.type}
@@ -141,7 +141,7 @@ function Contact(props) {
           )}
         </Button>
       </Form>
-    </>
+    </div>
   );
 }
 
