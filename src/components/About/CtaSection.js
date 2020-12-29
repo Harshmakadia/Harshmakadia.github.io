@@ -20,12 +20,12 @@ function CtaSection(props) {
           size={1}
           spaced={true}
         ></SectionHeader>
-        <SectionHeader
+        {props.showArchieve && <SectionHeader
           title={""}
-          subtitle={<a href="https://tinyletter.com/HarshMakadia/archive" rel="noopener noreferrer" target="_blank">To view archievd news letter</a>}
+          subtitle={<a href="https://tinyletter.com/HarshMakadia/archive" rel="noopener noreferrer" target="_blank">To view archievd newsletter</a>}
           size={1}
           spaced={true}
-        ></SectionHeader>
+        ></SectionHeader>}
         <Button
           variant={props.buttonColor}
           size="lg"

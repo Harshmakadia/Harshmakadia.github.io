@@ -49,11 +49,27 @@ function IndexPage(props) {
             bgImage=""
             bgImageOpacity={1}
             title="Join the newsletter"
-            subtitle="Subscribe to my weekly emails on Low-code/No code, ReactJS, Javascript, UX/UI, tools that makes your life easier"
+            subtitle="Subscribe to my weekly emails on Low-code/No code, ReactJS, Javascript, UX/UI, tools that makes your life easier."
             buttonText="Subscribe Now"
             buttonColor="primary"
+            showArchieve={true}
             buttonOnClick={() => {
               window.open("https://tinyletter.com/HarshMakadia", "_blank");
+            }}
+          ></CtaSection>
+          <CtaSection
+            bg={context.theme === "dark" ? "dark" : "white"}
+            textColor={context.theme === "dark" ? "light" : "dark"}
+            size="md"
+            bgImage=""
+            bgImageOpacity={1}
+            title="Book a slot"
+            subtitle="Setup meeting to discuss about product development, nocode & low code development or anything else. I would be happy to work with you."
+            buttonText="Book Appointment"
+            buttonColor="primary"
+            showArchieve={false}
+            buttonOnClick={() => {
+              window.open("/book-a-slot", "_self");
             }}
           ></CtaSection>
         </>
