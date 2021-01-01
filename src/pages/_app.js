@@ -50,7 +50,7 @@ function App(props) {
                   bgImage=""
                   bgImageOpacity={1}
                   description="Harsh Makadia"
-                  copyright="© 2020 Harsh Makdia"
+                  copyright="© 2021 Harsh Makadia"
                   logo={context.theme === "dark" ? HarshWhite : HarshBlack}
                 ></Footer>
                 </>
