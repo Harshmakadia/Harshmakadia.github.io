@@ -25,7 +25,7 @@ function IndexPage(props) {
             bgImage=""
             bgImageOpacity={1}
             title="About Me"
-            subtitle="Dev, Dreamer, Travel Buff, Gadget Geek, Adventurer, Gamer. Writing about Javascript ❤"
+            subtitle="I'm Harsh having over 5+ years of experience in the software industry. Being a full-stack developer I have worked on a lot of frontend and backend technologies, Mobile apps using React native, Robotic Process Automation, defining software architecture"
             buttonText=""
             buttonColor="primary"
             buttonOnClick={() => {
