@@ -55,16 +55,16 @@ function IndexPage(props) {
             size="md"
             bgImage=""
             bgImageOpacity={1}
-            title="console.beautify"
-            subtitle="Beautify console logs. Why keep the default console.logs?"
+            title="Blazing Fast Website"
+            subtitle="Migrating Medium blogs to Personal website with pagespeed score of 100"
             buttonText="View Project"
             buttonColor="primary"
-            image="https://user-images.githubusercontent.com/13532530/86932123-90dd6c80-c156-11ea-844b-fe50d214725d.png"
+            image="https://user-images.githubusercontent.com/13532530/105021258-58580d00-5a6e-11eb-9a74-b6f37b9171ef.png"
             buttonOnClick={() => {
               // Navigate to pricing page
               //router.push('/pricing');
               window.open(
-                "https://www.npmjs.com/package/console.beautify",
+                "http://blogs.harshmakadia.me/",
                 "_blank"
               );
             }}
@@ -75,14 +75,14 @@ function IndexPage(props) {
             size="md"
             bgImage=""
             bgImageOpacity={1}
-            title="React Context vs Redux"
-            subtitle="How React Context can come to the rescue if you don’t know Redux."
+            title="console.beautify"
+            subtitle="Beautify console logs. Why keep the default console.logs?"
             buttonText="View Project"
             buttonColor="primary"
-            image="https://user-images.githubusercontent.com/13532530/86934057-e0bd3300-c158-11ea-8579-50d9b9503273.png"
+            image="https://user-images.githubusercontent.com/13532530/86932123-90dd6c80-c156-11ea-844b-fe50d214725d.png"
             buttonOnClick={() => {
               // Navigate to pricing page
-              window.open("https://react-context.netlify.app/", "_blank");
+              window.open("https://www.npmjs.com/package/console.beautify", "_blank");
             }}
           ></HeroSection2>
           <ClientsSection
