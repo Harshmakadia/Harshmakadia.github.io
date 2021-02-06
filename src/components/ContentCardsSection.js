@@ -25,6 +25,15 @@ function ContentCardsSection(props) {
           items={[
             {
               image:
+                "https://miro.medium.com/max/700/1*Ha2vNB0ILaYKPXk6oyTZSQ.png",
+              title: "Props Drilling v/s Context API Which One Is the Best",
+              body:
+                "Is shortcut i.e context API only the best?",
+              url:
+                "https://medium.com/codestory/props-drilling-v-s-context-api-which-one-is-the-best-75c503d21a65",
+            },
+            {
+              image:
                 "https://miro.medium.com/max/700/1*9ZNDdF8254Tv8-H-sz81ZA.png",
               title: "Build an MVP in a week by picking the right technology stack",
               body:

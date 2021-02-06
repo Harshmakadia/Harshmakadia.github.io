@@ -50,8 +50,8 @@ function FaqSection(props) {
                 answer: "Writing tech articles on Medium about Javascript, React, chatbots",
               },
               {
-                question: "Explore 🕵️",
-                answer: "Love to explore new tools and frameworks helping me make my life easier and learn new skills",
+                question: "MVP 🏆",
+                answer: "Build MVP faster with nocode tools to evaluate your ideas. Spend less, Ship faster.",
               },
             ]}
           ></Faq>
