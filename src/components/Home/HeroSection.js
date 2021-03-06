@@ -4,7 +4,6 @@ import Container from "react-bootstrap/Container";
 import SectionHeader from "../SectionHeader";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
 
 function HeroSection(props) {
   return (
@@ -17,7 +16,7 @@ function HeroSection(props) {
     >
       <Container>
         <Row className="align-items-center">
-          <Col lg={6} className="text-center text-lg-left">
+          <Col lg={12} md={12} sm={12} className="text-center header-center">
             <SectionHeader
               title={props.title}
               subtitle={props.subtitle}
@@ -27,7 +26,7 @@ function HeroSection(props) {
           </Col>
           <Col className="offset-lg-1 mt-5 mt-lg-0" style={{textAlign: "center"}}>
             <figure className="HeroSection2__image-container mx-auto">
-              <Image src={props.image} fluid={true} style={{maxHeight: 500, minHeight: 500}}></Image>
+              {/* <Image src={props.image} fluid={true} style={{maxHeight: 500, minHeight: 500}}></Image> */}
             </figure>
           </Col>
         </Row>

@@ -59,3 +59,10 @@
 .text-dark h1, .custom-h1.text-dark {
     color: #1E75D9 !important;
 }
+
+.header-center{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
