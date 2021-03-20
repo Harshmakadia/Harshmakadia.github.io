@@ -23,6 +23,11 @@ function NewsSection(props) {
         />
         <NewsItem
           items={[
+          {
+              title: "Tech that Matters - Resources that will help you save time",
+              date: "March 20th, 2021",
+              url: 'https://tinyletter.com/HarshMakadia/letters/march-20-tech-that-matters-1'
+            },
             {
               title: "Tech that Matters - Build website faster with nocode tools, profile picture maker",
               date: "January 23rd, 2021",
