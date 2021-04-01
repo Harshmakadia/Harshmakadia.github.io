@@ -77,6 +77,15 @@ function Footer(props) {
                 <i className="fab fa-github"></i>
               </span>
             </a>
+            <a
+              href="https://www.producthunt.com/@makadiaharsh"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="icon">
+                <i className="fab fa-product-hunt"></i>
+              </span>
+            </a>
           </div>
           <div className="copyright left">{props.copyright}</div>
         </div>
