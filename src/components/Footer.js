@@ -27,6 +27,9 @@ function Footer(props) {
               Blogs
             </Link>
             <Link to="/newsletter"> Newsletter </Link>
+            <Link to="/nocode" rel="noopener noreferrer">
+              Nocode
+            </Link>
             {/* <a href="https://tinyletter.com/HarshMakadia/" target="_blank" rel="noopener noreferrer">
               NewsLetter
             </a> */}

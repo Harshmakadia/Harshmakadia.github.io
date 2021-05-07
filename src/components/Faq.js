@@ -9,8 +9,8 @@ function Faq(props) {
       {props.items.map((item, index) => (
         <Col xs={12} md={6} key={index}>
           <article className="Faq__faq-item">
-            <h4>{item.question}</h4>
-            <p>{item.answer}</p>
+            <h3>{item.question}</h3>
+            <p className="increase-font">{item.answer}</p>
           </article>
         </Col>
       ))}

@@ -66,3 +66,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.increase-font{
+    font-size: 18px;
+}
+
+.form-control{
+    border-radius: none;
+}

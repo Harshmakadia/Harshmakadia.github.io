@@ -10,6 +10,7 @@ import NewsLetters from './newsletters';
 import SubLetters from './subscribe';
 import Footer from "./../components/Footer";
 import Book from "./../components/Book/Book";
+import Nocode from "../components/Nocode/Nocode";
 import "./../util/analytics.js";
 import { ProvideAuth } from "./../util/auth.js";
 import GlobalState from '../provider';
@@ -41,6 +42,7 @@ function App(props) {
                     <Route exact path="/newsletter" component={NewsLetters} />
                     <Route exact path="/subscribe" component={SubLetters} />
                     <Route exact path="/book-a-slot" component={Book} />
+                    <Route exact path="/nocode" component={Nocode} />
                     <Route component={NotFoundPage} />
                   </Switch>
                 <Footer

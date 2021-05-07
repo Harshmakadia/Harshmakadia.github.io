@@ -1,0 +1,21 @@
+.grider {
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px; */
+    width:33.333333333333336%;
+}
+
+.cards {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
+.carsd{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}

@@ -54,6 +54,13 @@ function NavbarCustom(props) {
                     </Nav.Link>
                   </LinkContainer>
                 </Nav.Item>
+                <Nav.Item>
+                  <LinkContainer to="/nocode">
+                    <Nav.Link active={false}>
+                      <span>Nocode</span>
+                    </Nav.Link>
+                  </LinkContainer>
+                </Nav.Item>
                 {/* <Nav.Item>
                   <Nav.Link
                     href="https://medium.com/@MakadiaHarsh"

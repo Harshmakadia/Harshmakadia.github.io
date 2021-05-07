@@ -47,7 +47,7 @@ function FeaturesSection(props) {
             {
               title: "Social Media",
               description:
-                "Tweeting about Technology, MachineLearning, IoT, ChatBots, BigData, AI, UX, UI, RPA and lot more!",
+                "Tweeting about SaaS, Buildinpublic, Technology,ChatBots, AI, UX, UI, RPA, Javascript and lot more!",
               image:
                 "https://user-images.githubusercontent.com/13532530/86527426-3628e400-bebc-11ea-96da-01e3b3732b31.png",
             },

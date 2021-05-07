@@ -43,7 +43,7 @@ function FaqSection(props) {
               {
                 question: "Tweet 🐦",
                 answer:
-                  "Tweeting about Technology, MachineLearning, IoT, ChatBots, BigData, AI, UX, UI, RPA and lot more!",
+                  "Tweeting about SaaS, Buildinpublic, Technology,ChatBots, AI, UX, UI, RPA, Javascript and lot more!",
               },
               {
                 question: "Blogging 📕",
