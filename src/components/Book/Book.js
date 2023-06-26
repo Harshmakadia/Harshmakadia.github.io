@@ -16,7 +16,7 @@ function Book(props) {
             title="Book Appointment"
             subtitle=""
           ></HeroSection>
-          <div className="calendly-inline-widget" data-url="https://calendly.com/harsh-makadia/30min" style={{minWidth:"320px",height:"630px", minHeight: "75%", backgroundColor: context.theme === "dark" ? "#0E182A" : "#ffffff"}}></div>
+          
         </>
         )}
       </ThemeContext.Consumer>
